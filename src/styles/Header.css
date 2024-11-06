@@ -1,0 +1,25 @@
+.header {
+  background-color: black;
+  color: white;
+  height: 4rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.header a:hover {
+  background-color: #777;
+}

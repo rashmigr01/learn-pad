@@ -1,0 +1,301 @@
+.title {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.section {
+  padding-top: 1rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}
+
+.section-content {
+  font-size: 1.25rem;
+}
+
+.subsection {
+  padding: 1rem 0;
+}
+
+.subsection-title {
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.flex-container {
+  width: 70%;
+  background-color: cornflowerblue;
+  display: flex;
+  padding: 1rem;
+}
+
+.flex-item {
+  padding: 1rem;
+  border: 1px solid azure;
+}
+
+.flex-container.row{
+  flex-direction: row;
+}
+
+.flex-container.column{
+  flex-direction: column;
+}
+
+.flex-container.row-reverse{
+  flex-direction: row-reverse;
+}
+
+.flex-container.column-reverse{
+  flex-direction: column-reverse;
+}
+
+.flex-container.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-container.nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-container.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-container.center {
+  justify-content: center;
+}
+
+.flex-container.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-container.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-container.space-around {
+  justify-content: space-around;
+}
+
+.flex-container.space-between {
+  justify-content: space-between;
+}
+
+.flex-container.ai .one{
+  line-height: 20px;
+}
+
+.flex-container.ai .two{
+  line-height: 50px;
+}
+
+.flex-container.ai .three{
+  line-height: 10px;
+}
+
+.flex-container.ai {
+  line-height: 80px;
+}
+
+.flex-container.center.ai {
+  align-items: center;
+}
+
+.flex-container.flex-start.ai {
+  align-items: flex-start;
+}
+
+.flex-container.flex-end.ai {
+  align-items: flex-end;
+}
+
+.flex-container.stretch.ai {
+  align-items: stretch;
+}
+
+.flex-container.baseline.ai {
+  align-items: baseline;
+}
+
+.flex-container.ac {
+  flex-wrap: wrap;
+}
+
+.flex-container.center.ac {
+  align-content: center;
+}
+
+.flex-container.flex-start.ac {
+  align-content: flex-start;
+}
+
+.flex-container.flex-end.ac {
+  align-content: flex-end;
+}
+
+.flex-container.stretch.ac {
+  align-content: stretch;
+}
+
+.flex-container.space-around.ac {
+  align-content: space-around;
+}
+
+.flex-container.space-between.ac {
+  align-content: space-between;
+}
+
+.flex-item.order1{
+  order: 1;
+}
+
+.flex-item.order2{
+  order: 2;
+}
+
+.flex-item.order3{
+  order: 3;
+}
+
+.flex-item.order4{
+  order: 4;
+}
+
+.flex-item.grow1 {
+  flex-grow: 1;
+}
+
+.flex-item.grow8 {
+  flex-grow: 8;
+}
+
+.flex-container.fi-shrink .flex-item{
+  width: 5rem;
+}
+
+.flex-item.shrink {
+  flex-shrink: 0;
+}
+
+.flex-container.fi-basis .flex-item{
+  width: 2rem;
+}
+
+.flex-item.basis {
+  flex-basis: 7rem;
+}
+
+.flex-container.as-center {
+  height: 100px;
+}
+
+.flex-container.as-center .flex-item{
+    line-height: 20px;
+}
+
+.flex-item.center {
+  align-self: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 70%;
+  background-color: cornflowerblue;
+  padding: 1rem;
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+
+.grid-item {
+  padding: 1rem;
+  border: 1px solid azure;
+}
+
+.zi-container {
+  position: relative;
+  width: 70%;
+}
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 150px;
+}
+
+.container-p {
+  width: 70%;
+}
+
+.position-relative {
+  position: relative;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.position-absolute {
+  position: absolute;
+  right: 0;
+  height: 20px;
+  border: 2px solid black;
+}
+
+.position-fixed {
+  position: fixed;
+  height: 20px;
+  left: 0;
+  border: 2px solid black;
+}
+
+.box-sizing-1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.box-sizing-2 {
+  width: 300px;
+  height: 100px;  
+  padding: 50px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.pseudo-class-hover:hover {
+  background-color: aqua;
+}
