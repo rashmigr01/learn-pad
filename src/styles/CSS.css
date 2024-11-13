@@ -6,22 +6,6 @@
   border-bottom: 1px solid black;
 }
 
-.section {
-  padding-top: 1rem;
-}
-
-.section-title {
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem;
-  cursor: pointer;
-  display: flex;
-  gap: 1rem;
-}
-
-.section-content {
-  font-size: 1.25rem;
-}
-
 .subsection {
   padding: 1rem 0;
 }
